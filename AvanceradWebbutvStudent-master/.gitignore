@@ -1,0 +1,16 @@
+# folders
+
+bin
+obj
+packages
+.vs
+
+# files
+
+*.user
+*.suo
+
+.~lock.*
+CustomerRegisterDb.db
+LoginInApp.db
+LoginInApp.db-journal

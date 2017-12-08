@@ -1,0 +1,20 @@
+﻿.fa{
+    visibility:hidden;
+}
+
+tr:hover .fa{
+    visibility:visible;
+}
+
+.fa-times:hover{
+    color:red;
+    cursor:pointer;
+}
+.fa-pencil:hover {
+    color: #0f1be8;
+    cursor: pointer;
+}
+
+.hiddenRow {
+    padding: 0 !important;
+}

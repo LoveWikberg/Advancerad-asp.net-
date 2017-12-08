@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="../CSS/StyleSheet.css" rel="stylesheet" />
+    <link href="../font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="../JS/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <title></title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Inlämningsuppgift 1 Love Wikberg</h1>
+        </div>
+        <a href="../api/log/recentLogFile" class="btn btn-primary btn-lg btn-block" role="button" aria-pressed="true">See most recently created log file</a>
+        <button id="seed" class="btn btn-success btn-lg btn-block" role="button" aria-pressed="true">Seed</button>
+        <hr />
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="customers-tab" data-toggle="tab" href="#customers" role="tab" aria-controls="home" aria-selected="true">All customers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="add-tab" data-toggle="tab" href="#add" role="tab" aria-controls="profile" aria-selected="false">Add customer</a>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="customers" role="tabpanel" aria-labelledby="customers-tab">
+                <!--Display customers-->
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Email</th>
+                            <th>Gender</th>
+                            <th>Age <i class="fa fa-refresh fa-2x" title="Update"></i></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <!--End-->
+            </div>
+            <div class="tab-pane fade " id="add" role="tabpanel" aria-labelledby="add-tab">
+                <br />
+                <form id="addForm">
+                    <div class="input-group">
+                        <span class="input-group-addon">First name</span>
+                        <input name="firstName" type="text" class="form-control" required>
+                    </div>
+                    <br />
+                    <div class="input-group">
+                        <span class="input-group-addon">Last name</span>
+                        <input name="lastName" type="text" class="form-control" required>
+                    </div>
+                    <br />
+                    <div class="input-group">
+                        <span class="input-group-addon">Email</span>
+                        <input name="email" type="email" class="form-control" required>
+                    </div>
+                    <br />
+                    <div class="input-group">
+                        <span class="input-group-addon">Age</span>
+                        <input name="age" type="number" class="form-control" required>
+                    </div>
+                    <br />
+                    <div class="input-group">
+                        <select name="gender" class="custom-select" required>
+                            <option disabled selected>Gender</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <br />
+                    <button type="submit" class="btn btn-success">Submit!</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="editFormModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editFormModalTitle">Edit</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form id="editForm">
+                    <div class="modal-body">
+                        <div class="input-group">
+                            <span class="input-group-addon">#</span>
+                            <input name="id" type="number" class="form-control" readonly="readonly">
+                        </div>
+                        <br />
+                        <div class="input-group">
+                            <span class="input-group-addon">First name</span>
+                            <input name="firstName" type="text" value="tjena" class="form-control">
+                        </div>
+                        <br />
+                        <div class="input-group">
+                            <span class="input-group-addon">Last name</span>
+                            <input name="lastName" type="text" class="form-control">
+                        </div>
+                        <br />
+                        <div class="input-group">
+                            <span class="input-group-addon">Email</span>
+                            <input name="email" type="email" class="form-control">
+                        </div>
+                        <br />
+                        <div class="input-group">
+                            <span class="input-group-addon">Age</span>
+                            <input name="age" type="number" class="form-control">
+                        </div>
+                        <br />
+                        <div class="input-group">
+                            <select name="gender" class="custom-select">
+                                <option disabled selected>Gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <p id="addedMessage" style="color:green;"></p>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Save changes</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--End of modal-->
+
+    <script src="../JS/Main.js"></script>
+</body>
+</html>

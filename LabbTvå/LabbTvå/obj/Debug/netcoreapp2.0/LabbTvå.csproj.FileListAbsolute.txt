@@ -1,0 +1,11 @@
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbTvå\LabbTvå\bin\Debug\netcoreapp2.0\LabbTvå.deps.json
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbTvå\LabbTvå\bin\Debug\netcoreapp2.0\LabbTvå.runtimeconfig.json
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbTvå\LabbTvå\bin\Debug\netcoreapp2.0\LabbTvå.runtimeconfig.dev.json
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbTvå\LabbTvå\bin\Debug\netcoreapp2.0\LabbTvå.dll
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbTvå\LabbTvå\bin\Debug\netcoreapp2.0\LabbTvå.pdb
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbTvå\LabbTvå\obj\Debug\netcoreapp2.0\LabbTvå.csprojResolveAssemblyReference.cache
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbTvå\LabbTvå\obj\Debug\netcoreapp2.0\LabbTvå.csproj.CoreCompileInputs.cache
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbTvå\LabbTvå\obj\Debug\netcoreapp2.0\LabbTvå.AssemblyInfoInputs.cache
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbTvå\LabbTvå\obj\Debug\netcoreapp2.0\LabbTvå.AssemblyInfo.cs
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbTvå\LabbTvå\obj\Debug\netcoreapp2.0\LabbTvå.dll
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbTvå\LabbTvå\obj\Debug\netcoreapp2.0\LabbTvå.pdb

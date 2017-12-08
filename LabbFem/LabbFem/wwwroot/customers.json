@@ -1,0 +1,20 @@
+﻿{
+  "customers": [
+    {
+      "id": 1,
+      "firstname": "Lisa",
+      "lastname": "Markfis",
+      "email": "markfisen@home.se",
+      "gender": "Female",
+      "age": 19
+    },
+    {
+      "id": 2,
+      "firstname": "Marx",
+      "lastname": "Schiller",
+      "email": "marx.schiller@gmail.com",
+      "gender": "Not sure",
+      "age": 26
+    }
+  ]
+}

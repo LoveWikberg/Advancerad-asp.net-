@@ -1,0 +1,10 @@
+﻿Bonnie,Roberts,broberts0@vinaora.com,Female,33
+Kenneth,Parker,kparker1@craigslist.org,Male,63
+Claes,Malm,sem@sjdh.se,Male,33
+Filip,Osäker,vetinte@gmail.com,Not sure,12
+Eva,Sjödin,sjodin.eva@dn.se,Female,61
+Love,Wikberg,love.wick93@gmail.com,Male,24
+Pernilla,Haag,prilla@gmail.ne,Not sure,26
+Pascal,Andersson,skatepascal@fabriken.se,Not sure,18
+Robin,Mikaelsson,mik.robin@gmail.com,Male,27
+Alex,Hobreg,lexhobreg@gmail.com,Male,6

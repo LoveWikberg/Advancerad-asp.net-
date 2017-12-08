@@ -1,0 +1,11 @@
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbFyra\LabbFyra\bin\Debug\netcoreapp2.0\LabbFyra.deps.json
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbFyra\LabbFyra\bin\Debug\netcoreapp2.0\LabbFyra.runtimeconfig.json
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbFyra\LabbFyra\bin\Debug\netcoreapp2.0\LabbFyra.runtimeconfig.dev.json
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbFyra\LabbFyra\bin\Debug\netcoreapp2.0\LabbFyra.dll
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbFyra\LabbFyra\bin\Debug\netcoreapp2.0\LabbFyra.pdb
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbFyra\LabbFyra\obj\Debug\netcoreapp2.0\LabbFyra.csprojResolveAssemblyReference.cache
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbFyra\LabbFyra\obj\Debug\netcoreapp2.0\LabbFyra.csproj.CoreCompileInputs.cache
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbFyra\LabbFyra\obj\Debug\netcoreapp2.0\LabbFyra.AssemblyInfoInputs.cache
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbFyra\LabbFyra\obj\Debug\netcoreapp2.0\LabbFyra.AssemblyInfo.cs
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbFyra\LabbFyra\obj\Debug\netcoreapp2.0\LabbFyra.dll
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbFyra\LabbFyra\obj\Debug\netcoreapp2.0\LabbFyra.pdb

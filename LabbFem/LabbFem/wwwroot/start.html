@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <link href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" />
+    <link href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap-grid.css" rel="stylesheet" />
+    <link href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap-reboot.css" rel="stylesheet" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="bootstrap-4.0.0-alpha.6-dist/js/bootstrap.js"></script>
+    <title>Labb Fem</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Labb Fem</h1>
+        </div>
+
+        <div class="row">
+
+            <div class="col-5">
+                <!--Tabs-->
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Get customers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Add customer</a>
+                    </li>
+                </ul>
+                <!--End of tabs-->
+
+                <br />
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <!--Options for fetching customers-->
+                        <div class="input-group">
+                            <span class="input-group-addon" id="basic-addon1">#</span>
+                            <input id="setId" type="number" class="form-control">
+                            <span class="input-group-btn">
+                                <button id="btn" class="btn btn-primary" type="button">Search</button>
+                            </span>
+                            <span class="input-group-btn">
+                                <button class="btn btn-success" id="brief" type="button">Search brief</button>
+                            </span>
+                        </div>
+                        <hr />
+                        <button class="btn btn-primary" id="getAllCustomers">Hämta alla kunder</button>
+                        <!--End-->
+                    </div>
+
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <!--Form for adding customer-->
+                        <form id="addForm" enctype="multipart/form-data">
+                            <div class="input-group">
+                                <span class="input-group-addon">First name</span>
+                                <input name="firstName" type="text" class="form-control">
+                            </div>
+                            <br />
+                            <div class="input-group">
+                                <span class="input-group-addon">Last name</span>
+                                <input name="lastName" type="text" class="form-control">
+                            </div>
+                            <br />
+                            <div class="input-group">
+                                <span class="input-group-addon">Email</span>
+                                <input name="email" type="email" class="form-control">
+                            </div>
+                            <br />
+                            <div class="input-group">
+                                <span class="input-group-addon">Age</span>
+                                <input name="age" type="number" class="form-control">
+                            </div>
+                            <br />
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="input-group">
+                                        <select name="gender" class="custom-select">
+                                            <option disabled selected>Gender</option>
+                                            <option>Male</option>
+                                            <option>Female</option>
+                                            <option>Not sure</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <button type="submit" class="btn btn-success">Submit!</button>
+                                </div>
+                            </div>
+                            <p id="addedMessage" style="color:green;"></p>
+                        </form>
+                        <!--End of form-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <!--Display customers and error message-->
+                <div id="apiResult"></div>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Email</th>
+                            <th>Gender</th>
+                            <th>Age</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+                <!--End-->
+
+                <!--<button class="btn"><</button>-->
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="editFormModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editFormModalTitle">Edit</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form id="editForm">
+                    <div class="modal-body">
+                        <div class="input-group">
+                            <span class="input-group-addon">#</span>
+                            <input name="id" type="number" class="form-control" readonly="readonly">
+                        </div>
+                        <br />
+                        <div class="input-group">
+                            <span class="input-group-addon">First name</span>
+                            <input name="firstName" type="text" value="tjena" class="form-control">
+                        </div>
+                        <br />
+                        <div class="input-group">
+                            <span class="input-group-addon">Last name</span>
+                            <input name="lastName" type="text" class="form-control">
+                        </div>
+                        <br />
+                        <div class="input-group">
+                            <span class="input-group-addon">Email</span>
+                            <input name="email" type="email" class="form-control">
+                        </div>
+                        <br />
+                        <div class="input-group">
+                            <span class="input-group-addon">Age</span>
+                            <input name="age" type="number" class="form-control">
+                        </div>
+                        <br />
+                        <div class="input-group">
+                            <select name="gender" class="custom-select">
+                                <option disabled selected>Gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Not sure</option>
+                            </select>
+                        </div>
+                        <p id="addedMessage" style="color:green;"></p>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Save changes</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--End of modal-->
+
+
+    <script src="js.js"></script>
+
+</body>
+</html>

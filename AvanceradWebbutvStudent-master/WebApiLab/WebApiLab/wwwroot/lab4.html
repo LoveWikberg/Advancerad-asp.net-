@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="css/plain.css" rel="stylesheet" />
+</head>
+<body>
+
+    <h1>WebApi4</h1>
+
+    <h2>Lägg till en person</h2>
+
+    <form method="post" action="/webapi4/AddPerson">
+        Förnamn: <input type="text" name="firstName" value="Lisa" />
+        Ålder: <input type="text" name="age" value="25" />
+        <button type="submit">Lägg till person</button>
+    </form>
+
+    <hr />
+
+    <h2>Validera en person</h2>
+
+    <form method="post" action="/webapi4/AddPersonValidate">
+        Förnamn: <input type="text" name="firstName" value="Lisa" />
+        Ålder: <input type="text" name="age" value="25" />
+        <button type="submit">Lägg till person</button>
+    </form>
+
+    <hr />
+
+    <h2>Validera en person - med attribut</h2>
+
+    <form method="post" action="/webapi4/AddPersonValidateAttribute">
+        Förnamn: <input type="text" name="firstName" value="Lisa" />
+        Ålder: <input type="text" name="age" value="25" />
+        <button type="submit">Lägg till person</button>
+    </form>
+
+    <hr />
+</body>
+</html>

@@ -1,0 +1,11 @@
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbTre\LabbTre\bin\Debug\netcoreapp2.0\LabbTre.deps.json
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbTre\LabbTre\bin\Debug\netcoreapp2.0\LabbTre.runtimeconfig.json
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbTre\LabbTre\bin\Debug\netcoreapp2.0\LabbTre.runtimeconfig.dev.json
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbTre\LabbTre\bin\Debug\netcoreapp2.0\LabbTre.dll
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbTre\LabbTre\bin\Debug\netcoreapp2.0\LabbTre.pdb
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbTre\LabbTre\obj\Debug\netcoreapp2.0\LabbTre.csprojResolveAssemblyReference.cache
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbTre\LabbTre\obj\Debug\netcoreapp2.0\LabbTre.csproj.CoreCompileInputs.cache
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbTre\LabbTre\obj\Debug\netcoreapp2.0\LabbTre.AssemblyInfoInputs.cache
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbTre\LabbTre\obj\Debug\netcoreapp2.0\LabbTre.AssemblyInfo.cs
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbTre\LabbTre\obj\Debug\netcoreapp2.0\LabbTre.dll
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbTre\LabbTre\obj\Debug\netcoreapp2.0\LabbTre.pdb

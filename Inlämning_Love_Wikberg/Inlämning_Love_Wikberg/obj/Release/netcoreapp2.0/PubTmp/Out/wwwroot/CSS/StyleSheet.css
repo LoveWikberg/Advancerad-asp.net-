@@ -1,0 +1,47 @@
+﻿tbody .fa {
+    visibility: hidden;
+}
+
+tbody tr:hover{
+    cursor:pointer;
+}
+
+tr:hover .fa {
+    visibility: visible;
+}
+
+.fa-times:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.fa-pencil:hover {
+    color: #0f1be8;
+    cursor: pointer;
+}
+
+.fa-refresh:hover {
+    color: #606060;
+    cursor: pointer;
+}
+
+.spin {
+    animation-name: spin;
+    animation-duration: 1s;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.hiddenRow {
+    padding: 0 !important;
+}

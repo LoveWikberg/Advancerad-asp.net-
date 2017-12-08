@@ -1,0 +1,12 @@
+D:\Programmering\Advancerad Webbutveckling asp.net\Inlämning_Love_Wikberg\Inlämning_Love_Wikberg\bin\Debug\netcoreapp2.0\Inlämning_Love_Wikberg.deps.json
+D:\Programmering\Advancerad Webbutveckling asp.net\Inlämning_Love_Wikberg\Inlämning_Love_Wikberg\bin\Debug\netcoreapp2.0\Inlämning_Love_Wikberg.runtimeconfig.json
+D:\Programmering\Advancerad Webbutveckling asp.net\Inlämning_Love_Wikberg\Inlämning_Love_Wikberg\bin\Debug\netcoreapp2.0\Inlämning_Love_Wikberg.runtimeconfig.dev.json
+D:\Programmering\Advancerad Webbutveckling asp.net\Inlämning_Love_Wikberg\Inlämning_Love_Wikberg\bin\Debug\netcoreapp2.0\Inlämning_Love_Wikberg.dll
+D:\Programmering\Advancerad Webbutveckling asp.net\Inlämning_Love_Wikberg\Inlämning_Love_Wikberg\bin\Debug\netcoreapp2.0\Inlämning_Love_Wikberg.pdb
+D:\Programmering\Advancerad Webbutveckling asp.net\Inlämning_Love_Wikberg\Inlämning_Love_Wikberg\obj\Debug\netcoreapp2.0\Inlämning_Love_Wikberg.csprojResolveAssemblyReference.cache
+D:\Programmering\Advancerad Webbutveckling asp.net\Inlämning_Love_Wikberg\Inlämning_Love_Wikberg\obj\Debug\netcoreapp2.0\Inlämning_Love_Wikberg.csproj.CoreCompileInputs.cache
+D:\Programmering\Advancerad Webbutveckling asp.net\Inlämning_Love_Wikberg\Inlämning_Love_Wikberg\obj\Debug\netcoreapp2.0\Inlämning_Love_Wikberg.AssemblyInfoInputs.cache
+D:\Programmering\Advancerad Webbutveckling asp.net\Inlämning_Love_Wikberg\Inlämning_Love_Wikberg\obj\Debug\netcoreapp2.0\Inlämning_Love_Wikberg.AssemblyInfo.cs
+D:\Programmering\Advancerad Webbutveckling asp.net\Inlämning_Love_Wikberg\Inlämning_Love_Wikberg\obj\Debug\netcoreapp2.0\Inlämning_Love_Wikberg.dll
+D:\Programmering\Advancerad Webbutveckling asp.net\Inlämning_Love_Wikberg\Inlämning_Love_Wikberg\obj\Debug\netcoreapp2.0\Inlämning_Love_Wikberg.pdb
+D:\Programmering\Advancerad Webbutveckling asp.net\Inlämning_Love_Wikberg\Inlämning_Love_Wikberg\bin\Debug\netcoreapp2.0\nlog.config

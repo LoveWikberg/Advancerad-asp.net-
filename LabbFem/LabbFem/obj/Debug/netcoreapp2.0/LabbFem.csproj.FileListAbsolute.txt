@@ -1,0 +1,11 @@
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbFem\LabbFem\bin\Debug\netcoreapp2.0\LabbFem.deps.json
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbFem\LabbFem\bin\Debug\netcoreapp2.0\LabbFem.runtimeconfig.json
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbFem\LabbFem\bin\Debug\netcoreapp2.0\LabbFem.runtimeconfig.dev.json
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbFem\LabbFem\bin\Debug\netcoreapp2.0\LabbFem.dll
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbFem\LabbFem\bin\Debug\netcoreapp2.0\LabbFem.pdb
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbFem\LabbFem\obj\Debug\netcoreapp2.0\LabbFem.csprojResolveAssemblyReference.cache
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbFem\LabbFem\obj\Debug\netcoreapp2.0\LabbFem.csproj.CoreCompileInputs.cache
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbFem\LabbFem\obj\Debug\netcoreapp2.0\LabbFem.AssemblyInfoInputs.cache
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbFem\LabbFem\obj\Debug\netcoreapp2.0\LabbFem.AssemblyInfo.cs
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbFem\LabbFem\obj\Debug\netcoreapp2.0\LabbFem.dll
+D:\Programmering\Advancerad Webbutveckling asp.net\LabbFem\LabbFem\obj\Debug\netcoreapp2.0\LabbFem.pdb

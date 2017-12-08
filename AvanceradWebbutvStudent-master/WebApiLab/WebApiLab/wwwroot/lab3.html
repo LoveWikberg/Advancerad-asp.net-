@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="css/plain.css" rel="stylesheet" />
+</head>
+<body>
+
+    <h1>WebApi3</h1>
+
+    <h2>Lampa</h2>
+
+    <form method="get" action="/webapi3/LightBulb">
+        <label>
+            <input name="light" type="checkbox" value="true" />
+            Slå på lampa
+        </label>
+        <button type="submit">Ljust eller mörkt</button>
+    </form>
+
+    <hr />
+
+    <h2>Dela choklad</h2>
+
+    <form method="get" action="/webapi3/ChocolatePieces">
+        <label>Antal personer</label>
+        <input name="numberOfPeople" type="text" value="0" />
+        <button type="submit">Beräkna</button>
+    </form>
+
+    <hr />
+
+    <h2>Hämta order</h2>
+
+    <form method="get" action="/webapi3/LookupOrder">
+        <label>Ordernummer</label>
+        <input name="orderId" type="text" value="RE-2523" />
+        <button type="submit">Slå upp order</button>
+    </form>
+
+    <hr />
+
+    <h2>Slå upp användarnamn</h2>
+
+    <form method="get" action="/webapi3/CheckUser">
+        <label>Användarnamn</label>
+        <input name="userName" type="text" value="Peter" />
+        <button type="submit">Slå upp</button>
+    </form>
+
+</body>
+</html>
