@@ -21,6 +21,22 @@
 
   <ItemGroup>
     <Folder Include="Log\" />
+    <Folder Include="wwwroot\sercrethtml\moresecrets\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_CustomFiles Include="$(MSBuildProjectDirectory)/../Djur/**/*" />
+    <DotnetPublishFiles Include="@(_CustomFiles)">
+      <DestinationRelativePath>wwwroot/Animals/%(RecursiveDir)%(Filename)%(Extension)</DestinationRelativePath>
+    </DotnetPublishFiles>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot/sercrethtml/**/*" CopyToPublishDirectory="Never" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Content Update="wwwroot/secret*.html" CopyToPublishDirectory="Never" />
   </ItemGroup>
 
 </Project>

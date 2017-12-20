@@ -6388,7 +6388,7 @@
       ]
     },
     "Microsoft.EntityFrameworkCore/2.0.1": {
-      "sha512": "RlwInZHfIUWwFgQJCpUMKrLeE8QJ64MA/GxD881oTMFa9j7iiGKCtI0xK4J1NNgRKvgVDPJbh9CIGJiu0KEdeA==",
+      "sha512": "LfaQvIVJhzlxfYPZsz2CUcLx2FkZhXucslMvU7SGUrWgsQFKnJ4zUAIUEVcAC2kbyG9tnhSqdWWlzHc9MHOOJA==",
       "type": "package",
       "path": "microsoft.entityframeworkcore/2.0.1",
       "files": [
@@ -6465,7 +6465,7 @@
       ]
     },
     "Microsoft.EntityFrameworkCore.Tools/2.0.1": {
-      "sha512": "/z1xawAD0oL5AyFd3vn9E7L6mE2UfEU91KwMDWEp8o0+AOrP4ZocJS5Kot5VYJMfDUeAzDBBZPmJs+r6/YUEiA==",
+      "sha512": "hkypeNc6WQy9bvzgmi9c6rzX95BF+jZl4xmHw2EeiYNNFGF6YHftqCPGIWga/iY2U6v9LfkS1KwBd4sFgXSEDA==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.tools/2.0.1",
       "files": [

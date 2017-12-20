@@ -32,18 +32,23 @@ namespace Inlämning_Love_Wikberg
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddMvc();
             services.AddTransient<FileHandler>();
+
+            // Konfigurering som krävs för att hantera egna appsettingsvärden (med hård typad härlig modell)
+            services.AddSingleton(Configuration.GetSection("MailConfiguration").Get<MailConfiguration>());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+            }
             env.ConfigureNLog("nlog.config");
             loggerFactory.AddNLog();
 
             //add NLog.Web
             app.AddNLogWeb();
-
-            app.UseDeveloperExceptionPage();
             app.UseDirectoryBrowser();
             app.UseStaticFiles();
             app.UseMvc();
